@@ -1,0 +1,181 @@
+﻿/*!
+ * Hans Kindberg font-size and line-height reset v1.0
+ *
+ * Free to use and customize.
+ *
+ * CSS to reset font-size and line-height, eg. if you use some CSS framework that uses fixed/px font-size and line-height you can override it.
+ */
+ 
+/*
+ * To make sure all tags are being overridden, set the id of your html-tag to "html", but maybe some times you do not want that.
+ * If you want to override this css and use the html id, you probably need to use the id to force an override:
+ * #html h1 { font-size: 2em; }
+ * Also have a look at https://raw.github.com/necolas/normalize.css/master/normalize.css, to combine with.
+ */
+
+*,
+html *,
+#html *,
+body *,
+/*
+ * The following tags are copied from http://www.w3schools.com/html5/default.asp, in the left menu under "HTML5 Tags" (I guess that should be all tags).
+ * After copy/paste: make sure all lines begins with " <" and ends with ">", search/replace " <" with "" and ">" with "," and fix "h1, -h6," to "h1, h2, h3, h4, h5, h6".
+ */
+a,
+abbr,
+acronym,
+address,
+applet,
+area,
+article,
+aside,
+audio,
+b,
+base,
+basefont,
+bdi,
+bdo,
+big,
+blockquote,
+body,
+br,
+button,
+canvas,
+caption,
+center,
+cite,
+code,
+col,
+colgroup,
+command,
+datalist,
+dd,
+del,
+details,
+dfn,
+dir,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+font,
+footer,
+form,
+frame,
+frameset,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+head,
+header,
+hgroup,
+hr,
+html,
+i,
+iframe,
+img,
+input,
+ins,
+keygen,
+kbd,
+label,
+legend,
+li,
+link,
+map,
+mark,
+menu,
+meta,
+meter,
+nav,
+noframes,
+noscript,
+object,
+ol,
+optgroup,
+option,
+output,
+p,
+param,
+pre,
+progress,
+q,
+rp,
+rt,
+ruby,
+s,
+samp,
+script,
+section,
+select,
+small,
+source,
+span,
+strike,
+strong,
+style,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+textarea,
+tfoot,
+th,
+thead,
+time,
+title,
+tr,
+track,
+tt,
+u,
+ul,
+var,
+video,
+wbr {
+	font-size: inherit;
+	line-height: inherit;
+}
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+body {
+	font-size: 100%;
+	line-height: 1;
+}
+
+/* Copied from https://raw.github.com/necolas/normalize.css/master/normalize.css */
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+h2 {
+    font-size: 1.5em;
+    margin: 0.83em 0;
+}
+h3 {
+    font-size: 1.17em;
+    margin: 1em 0;
+}
+h4 {
+    font-size: 1em;
+    margin: 1.33em 0;
+}
+h5 {
+    font-size: 0.83em;
+    margin: 1.67em 0;
+}
+h6 {
+    font-size: 0.75em;
+    margin: 2.33em 0;
+}
