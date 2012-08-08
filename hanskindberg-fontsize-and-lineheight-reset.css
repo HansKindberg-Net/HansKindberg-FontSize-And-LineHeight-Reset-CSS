@@ -7,7 +7,7 @@
  */
  
 /*
- * To make sure all tags are being overridden, set the id of your html-tag to "html", but maybe some times you do not want that.
+ * To make sure all tags are being overridden, set the id of your html-tag to "html".
  * If you want to override this css and use the html id, you probably need to use the id to force an override:
  * #html h1 { font-size: 2em; }
  * Also have a look at https://raw.github.com/necolas/normalize.css/master/normalize.css, to combine with.
